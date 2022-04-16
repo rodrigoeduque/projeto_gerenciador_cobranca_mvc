@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Titulos</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/image/rodrigoeduque.png" alt="" width="90" height="72">
+        </a>
+        <h1>Gerenciamento de Cobranças</h1>
+    </div>
+</nav>
+
+<div class="card">
+    <h5 class="card-header">Cadastro</h5>
+    <div class="card-body">
+        <div class="sm-3">
+            <label for="descricao" class="form-label">Descrição</label>
+            <input type="text" class="form-control" id="descricao">
+        </div>
+        <div class="mb-4">
+            <label for="datavencimento" class="form-label">Data Vencimento</label>
+            <input type="date" class="form-control" id="datavencimento">
+        </div>
+        <div class="mb-3">
+            <label for="valor" class="form-label">Valor</label>
+            <input type="text" class="form-control" id="valor">
+        </div>
+        <div class="mb-4">
+        <label for="status" class="form-label">Status</label>
+        <select class="form-select" aria-label="Default select example" id="status">
+            <option value="pendente">Pendente</option>
+            <option value="recebido">Recebido</option>
+        </select>
+        </div>
+
+        <div class="mb-4">
+            <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>
